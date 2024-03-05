@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins& diplay=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background-color: black;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: #29f700;
+}
+#navbarSupportedContent a {
+  color: #fff;
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button {
+  background-color: #29f700;
+  width: 5rem;
+  border-radius: 15px;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLoDsrWdSIGLzQhJGLkHFo8VSzt82csuE2w&usqp=CAU);
+  background-size: cover;
+  flex-direction: column;
+}
+#home h1 {
+  font-size: 100px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #ccc, 0px 3px 0px #e12121,
+    0px 4px 0px #ccc, 0px 5px 0px #ccc, 0px 6px 0px #ccc, 0px 7px 0px #ccc;
+}
+#home .input-group {
+  width: 40%;
+  height: 45px;
+}
+.signin {
+  background: green !important;
+  color: white !important;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+#product {
+  background: #e5e5e5;
+}
+#product h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+#product img {
+  width: 500px;
+  height: 250px;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  background: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 20px white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px;
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: inset 5px 15px 10px rgba(0, 0, 0, 0.3), inset -4px -4px 10px white;
+  transition: 0.2s;
+}
+
+#contact {
+  background-color: #edebeb;
+  
+}
+
+
+
+form {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 600px;
+  text-align: center;
+  width: 550px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+form label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+form input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  background-color:#ccc;
+}
+input[type="button"]{
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color:#29f700;
+}
+p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para2{
+  text-align: center;
+  font-size: 15px;
+  margin-top: -10px;
+}
+#contact h1 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+#contact h4{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+
+.container.right-panel-active .overlay-container{
+  transform: translateX(-100%);
+}
+.container.right-panel-active .overlay{
+  transform: translateX(50%);
+}
+.container.right-panel-active .overlay-left{
+  transform: translateX(0);
+}
+.container.right-panel-active .overlay-right{
+  transform: translateX(20);
+} */ */
+
+.Signup-box{
+width: 360px;
+height: 620px;
+margin: auto;
+background-color: #8ed8f6;
+}
+.login-box{
+  width: 360px;
+  height: 270px;
+  margin: auto;
+  border-radius: 3px;
+  /* background-color:; */
+}
+
+footer .footer-cols{
+    display: grid;    /*inn a structure of rowsand columns*/
+    grid-gap:20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 20px;
+
+
+}
+footer .footer-cols ul{
+    list-style: none;   /*bullets are gone*/
+    
+}
+
+footer .footer-cols ul li:first-child{
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 2px;
+    margin-bottom: 1rem;
+
+}
+footer .footer-bottom{
+    text-align: center;
+    background-color: #333;
+    /* padding: 1rem; */
+    color: #fff;
+    height: 70px;
+    width: 1200px;
+    padding: 20px;
+
+}
+#footers{
+  background-color:#ebe9e9;
+  font-size: 30px;
+}
+#Searches{
+  background-color: #ccc;
+  margin: 0;
+  margin-top: 0;
+}
+.container-fluids{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0;
+}
+.abc{
+  width: 1200;
+  height: auto;
+  margin: auto;
+}
+.abc .search{
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-between;
+}
+.abc .search h1{
+  letter-spacing: 3px;
+  display: inline-block;
+  border-bottom: 2px solid ;
+  padding-bottom: 10px;
+}
+.abc .search input{
+  width: 60%;
+  padding: 5px 16px;
+  background-color: transparent;
+  border: 1px solid #000;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+.abc .search input::placeholder{
+  color: green;
+  font-weight: 500;
+}
+.abc .Product-list{
+  display: flex;
+  justify-content: space-between;
+}
